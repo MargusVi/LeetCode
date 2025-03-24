@@ -35,9 +35,9 @@ use std::collections::HashMap;
 fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
     let mut map = HashMap::new(); // Chave: valor, Valor: índice
     for (i, &num) in nums.iter().enumerate() {
-        let complemento = target - num;
-        if let Some(&indice_complemento) = map.get(&complemento) {
-            return vec![indice_complemento as i32, i as i32];
+        let complement = target - num;
+        if let Some(&idx_complement) = map.get(&complement) {
+            return vec![idx_complement as i32, i as i32];
         }
         map.insert(num, i);
     }
