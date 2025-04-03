@@ -34,19 +34,21 @@ fn get_substring(s: &str) -> String {
 }
 
 fn main() {
+    println!("Length of longest substring without repeating characters...\n");
+
     let s = String::from("abcabcbb");
-    let result = length_of_longest_substring(s);
-    println!("Output: {}", result);
+    let result = length_of_longest_substring(s.clone());
+    println!("String: {:?}\tOutput: {}", s, result);
 
     let s = String::from("bbbbb");
-    let result = length_of_longest_substring(s);
-    println!("Output: {}", result);
+    let result = length_of_longest_substring(s.clone());
+    println!("String: {:?}\t\tOutput: {}", s, result);
 
     let s = String::from("pwwkew");
-    let result = length_of_longest_substring(s);
-    println!("Output: {}", result);
+    let result = length_of_longest_substring(s.clone());
+    println!("String: {:?}\tOutput: {}", s, result);
 
     let s = String::from("dvdf");
-    let result = length_of_longest_substring(s);
-    println!("Output: {}", result);
+    let result = length_of_longest_substring(s.clone());
+    println!("String: {:?}\t\tOutput: {}", s, result);
 }

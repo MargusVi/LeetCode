@@ -45,18 +45,29 @@ fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
 }
 
 fn main() {
+    println!("What are the indices of the numbers that sum up to the target?\n");
+
     let nums = vec![2, 7, 11, 15];
     let target = 9;
-    let output = two_sum(nums, target);
-    println!("Output: {:?}", output);
+    let output = two_sum(nums.clone(), target);
+    println!(
+        "Numbers: {:?}\nTarget: {:?}\nOutput: {:?}\n",
+        nums, target, output
+    );
 
     let nums = vec![3, 2, 4];
     let target = 6;
-    let output = two_sum(nums, target);
-    println!("Output: {:?}", output);
+    let output = two_sum(nums.clone(), target);
+    println!(
+        "Numbers: {:?}\nTarget: {:?}\nOutput: {:?}\n",
+        nums, target, output
+    );
 
     let nums = vec![3, 3];
     let target = 6;
-    let output = two_sum(nums, target);
-    println!("Output: {:?}", output);
+    let output = two_sum(nums.clone(), target);
+    println!(
+        "Numbers: {:?}\nTarget: {:?}\nOutput: {:?}\n",
+        nums, target, output
+    );
 }

@@ -78,15 +78,32 @@ fn list_to_vec(list: Option<Box<ListNode>>) -> Vec<i32> {
 }
 
 fn main() {
+    println!("Summing two numbers represented by linked lists...\n");
+
     let l1 = vec_to_list(vec![2, 4, 3]);
     let l2 = vec_to_list(vec![5, 6, 4]);
-    println!("Output: {:?}", list_to_vec(add_two_numbers(l1, l2)));
+    println!(
+        "Linked list 1: {:?}\nLinked list 2: {:?}\nOutput: {:?}\n",
+        list_to_vec(l1.clone()),
+        list_to_vec(l2.clone()),
+        list_to_vec(add_two_numbers(l1, l2))
+    );
 
     let l1 = vec_to_list(vec![0]);
     let l2 = vec_to_list(vec![0]);
-    println!("Output: {:?}", list_to_vec(add_two_numbers(l1, l2)));
+    println!(
+        "Linked list 1: {:?}\nLinked list 2: {:?}\nOutput: {:?}\n",
+        list_to_vec(l1.clone()),
+        list_to_vec(l2.clone()),
+        list_to_vec(add_two_numbers(l1, l2))
+    );
 
     let l1 = vec_to_list(vec![9, 9, 9, 9, 9, 9, 9]);
     let l2 = vec_to_list(vec![9, 9, 9, 9]);
-    println!("Output: {:?}", list_to_vec(add_two_numbers(l1, l2)));
+    println!(
+        "Linked list 1: {:?}\nLinked list 2: {:?}\nOutput: {:?}\n",
+        list_to_vec(l1.clone()),
+        list_to_vec(l2.clone()),
+        list_to_vec(add_two_numbers(l1, l2))
+    );
 }
