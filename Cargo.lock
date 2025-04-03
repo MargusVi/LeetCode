@@ -11,5 +11,9 @@ name = "longest_substring_without_repeating_characters"
 version = "0.1.0"
 
 [[package]]
+name = "palindrome_number"
+version = "0.1.0"
+
+[[package]]
 name = "two_sum"
 version = "0.1.0"
