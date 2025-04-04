@@ -3,5 +3,7 @@ resolver = "2"
 members = [
     "1. Two Sum",
     "2. Add Two Numbers",
-    "3. Longest Substring Without Repeating Characters", "9. Palindrome Number",
+    "3. Longest Substring Without Repeating Characters",
+    "9. Palindrome Number",
+    "13. Roman to Integer",
 ]
