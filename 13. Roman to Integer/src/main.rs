@@ -43,6 +43,7 @@ pub fn roman_to_int(s: String) -> i32 {
 }
 
 fn main() {
+    println!("Converting roman numerals to integers:\n");
     let test_cases = vec![
         "III".to_string(),
         "LVIII".to_string(),
