@@ -6,4 +6,5 @@ members = [
     "3. Longest Substring Without Repeating Characters",
     "9. Palindrome Number",
     "13. Roman to Integer",
+    "14. Longest Common Prefix"
 ]
