@@ -1,4 +1,3 @@
-
 # [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
 **(Easy)**
@@ -13,39 +12,27 @@ An input string is valid if:
 
 ## **Example 1:**
 
-```
 <pre><strong>Input:</strong> s = "()"
 <strong>Output:</strong> true
 </pre>
-```
-
 
 ## **Example 2:**
 
-```
 <pre><strong>Input:</strong> s = "()[]{}"
 <strong>Output:</strong> true
 </pre>
-```
-
 
 ## **Example 3:**
 
-```
 <pre><strong>Input:</strong> s = "(]"
 <strong>Output:</strong> false
 </pre>
-```
-
 
 ## **Example 4:**
 
-```
 <pre><strong>Input:</strong> s = "([])"
 <strong>Output:</strong> true
 </pre>
-```
-
 
 ## **Constraints:**
 
